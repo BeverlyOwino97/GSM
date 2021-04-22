@@ -1,0 +1,6 @@
+#define SECRET_PIN ""
+#define SECRET_GPRS_APN ""
+#define SECRET_GPRS_LOGIN ""
+#define SECRET_GPRS_PASS ""
+#define SECRET_CH_ID ""
+#define SECRET_WRITE_APIKEY ""
