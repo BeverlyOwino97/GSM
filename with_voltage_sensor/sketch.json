@@ -1,0 +1,26 @@
+{
+  "cpu": {
+    "fqbn": "",
+    "name": "",
+    "type": ""
+  },
+  "secrets": [
+    {
+      "name": "SECRET_PIN",
+      "value": ""
+    },
+    {
+      "name": "SECRET_GPRS_APN",
+      "value": ""
+    },
+    {
+      "name": "SECRET_GPRS_LOGIN",
+      "value": ""
+    },
+    {
+      "name": "SECRET_GPRS_PASS",
+      "value": ""
+    }
+  ],
+  "included_libs": []
+}

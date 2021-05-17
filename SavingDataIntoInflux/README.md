@@ -1,0 +1,5 @@
+- We use InfluxDB to store the data because it is optimized for time series data. 
+- If you are new to InfluxDB, you can read the getting started guide of InfluxDB: https://docs.influxdata.com/influxdb/v1.7/introduction/getting-started/
+- The work of the subscriber is to listen to all MQTT messages, pull out the ones we want to save to the database and save the messages in the right format into InfluxDB. The bridge between the MQTT broker and the InfluxDB is a python3 script like this one. 
+- The function  '_init_influxdb_database' initializes the InfluxDB database. If the database does not exist, it will be created through the function.
+- To create a virtual instance of influxdb based on Google Cloud Platform, look at https://github.com/DeKUT-DSAIL/ewaso/tree/master/GCP_DASH_DB for step by step instructions. 

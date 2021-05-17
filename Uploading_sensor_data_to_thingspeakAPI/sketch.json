@@ -1,8 +1,8 @@
 {
   "cpu": {
-    "fqbn": "arduino:samd:mkrgsm1400",
-    "name": "Arduino MKR GSM 1400",
-    "type": "serial"
+    "fqbn": "",
+    "name": "",
+    "type": ""
   },
   "secrets": [
     {
@@ -19,6 +19,14 @@
     },
     {
       "name": "SECRET_GPRS_PASS",
+      "value": ""
+    },
+    {
+      "name": "SECRET_CH_ID",
+      "value": ""
+    },
+    {
+      "name": "SECRET_WRITE_APIKEY",
       "value": ""
     }
   ],
